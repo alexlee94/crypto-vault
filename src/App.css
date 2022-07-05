@@ -1,0 +1,74 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none !important;
+}
+
+body {
+	background-color: #263238;
+}
+
+ul {
+	list-style: none;
+}
+
+video {
+	object-fit: cover;
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.header {
+	z-index: 2;
+	position: absolute;
+	margin-left: 550px;
+	font-family: "Orbitron", sans-serif;
+	color: #eeeeee;
+}
+
+.coinlist-image {
+	width: 50px;
+}
+
+.coinlist-item {
+	display: flex;
+}
+
+.coinsummary {
+	border-color: white !important;
+	border-style: outset !important;
+}
+
+.coin-data-category {
+	font-size: 10px;
+}
+
+.delete-icon {
+	display: none;
+	position: absolute;
+	right: 6px;
+}
+
+.coin:hover .delete-icon {
+	display: block;
+}
+
+.coin-data {
+	display: flex;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	height: 30%;
+	width: 60%;
+}
+
+.coinlist {
+	z-index: 2;
+	position: absolute;
+	display: flex;
+	width: 40%;
+}
